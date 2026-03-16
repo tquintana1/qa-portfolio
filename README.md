@@ -30,6 +30,10 @@ Documentación de pre-requisitos de prueba para un sistema e-commerce.
 - Ambientes y dependencias mapeadas por caso
 
 ---
-
+### 📁 jira-alm · Simulación de flujo ALM en Jira
+Simulación del flujo de los 4 módulos de HP ALM usando Jira:
+- Requirements → Test Plan → Test Lab → Defects
+- Flujo completo: Reportado → En corrección → En retesting → Cerrado
+---
 ## Tecnologías
 Postman · REST APIs · JavaScript (pm.test) · Variables de entorno · CRUD completo · SQL · Gestión de datos de prueba
