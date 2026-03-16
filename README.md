@@ -1,16 +1,14 @@
 # QA Portfolio — Thiago De La Quintana
 
-## Colección Postman · JSONPlaceholder API
+## Contenido del repositorio
 
-Colección de pruebas funcionales sobre la API REST pública JSONPlaceholder,
-construida como parte de mi formación en Testing QA.
+### 📁 Colección Postman · JSONPlaceholder API
+Colección de pruebas funcionales sobre la API REST pública JSONPlaceholder.
 
-### ¿Qué incluye?
-- 8 requests organizados en colección (GET, POST, PUT, PATCH, DELETE)
+- 8 requests organizados (GET, POST, PUT, PATCH, DELETE)
 - Variables de entorno configuradas para múltiples ambientes
 - 21 tests automáticos con pm.test() — todos en verde
 
-### Endpoints testeados
 | Método | Endpoint | Tests |
 |---|---|---|
 | GET | /users | Status 200, array de 10 usuarios |
@@ -22,5 +20,16 @@ construida como parte de mi formación en Testing QA.
 | PATCH | /posts/1 | Status 200, campo modificado |
 | DELETE | /posts/1 | Status 200, body vacío |
 
-### Tecnologías
-Postman · REST APIs · JavaScript (pm.test) · Variables de entorno · CRUD completo
+---
+
+### 📁 gestion-datos · Matriz de Dependencias
+Documentación de pre-requisitos de prueba para un sistema e-commerce.
+
+- 10 casos de prueba con ID (TC-001 a TC-010)
+- Datos necesarios clasificados por tipo (estático, dinámico, sintético)
+- Ambientes y dependencias mapeadas por caso
+
+---
+
+## Tecnologías
+Postman · REST APIs · JavaScript (pm.test) · Variables de entorno · CRUD completo · SQL · Gestión de datos de prueba
